@@ -29,7 +29,7 @@ SECRET_KEY = env.str("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env.bool("DEBUG", default=False)
 
-ALLOWED_HOSTS = ["django_project.onrender.com","localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["news-website-9y6e.onrender.com","localhost", "127.0.0.1"]
 
 
 # Application definition
