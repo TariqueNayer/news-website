@@ -16,7 +16,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_project.settings")
 try:
     from django.core.management import call_command
     call_command('migrate', interactive=False)
-    call_command('collectstatic', interactive=False, verbosity=0)
+    call_command('collectstatic', interactive=False, verbosity=2)
 except Exception as e:
     print(f"Startup command error: {e}")
 
